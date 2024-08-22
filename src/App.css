@@ -1,0 +1,83 @@
+
+.form-task{
+    display: flex; flex-direction: row; justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.p-task{
+    text-align: center;
+    font-size: 25px
+}
+.border-task {
+    border :2px dotted #cdcdcd;
+     margin : 0 auto ; 
+     width : 50%;
+     padding : 20px 20px
+}
+
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  .movie-detail{
+    text-align: center;
+  }
+  
+  .back-to-home{
+    width:100px;
+    height:60px;
+    background-color:#cdcdcd;
+    border-radius: 10% ;
+  
+    margin-top: 20px;
+  
+  }
+  
+  .view-details{
+    text-decoration: none;
+  }
+  button:hover{
+    background-color:#cecece;
+  }
+  
+  .nav-back{
+    text-decoration:none;
+    color: black ; 
+  }
+
+  .cardTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .verifierEdit{display: flex; flex-direction:column ;  align-items: center;gap: 20px;
+    border: 2px solid #cecece;
+    width: 50%;
+    margin: 0 auto;
+    padding: 22px
+  }
